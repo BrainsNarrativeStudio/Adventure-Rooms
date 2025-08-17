@@ -1,0 +1,25 @@
+id: template
+title: The Simple Adventure
+description: A simple story template demonstrating basic helpers
+author: Cortext Team
+image: https://upload.wikimedia.org/wikipedia/commons/2/2d/Bat_page_255.jpg
+version: 1.0.0
+
+traits:
+  Class: [warrior, mage, rogue]
+
+has:
+  sword: false
+  magic: false
+  key: false
+
+stats:
+  experience: 0
+
+text:
+  characterName: "Adventurer"
+
+scenes:
+  - start.md
+  - middle.md
+  - end.md
