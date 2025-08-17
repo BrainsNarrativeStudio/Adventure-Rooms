@@ -11,7 +11,7 @@ options:
         key: true
   - text: "Use magic"
     next: end
-    if: 'has.magic'
+    if: 'has "magic"'
     set:
       stats:
         experience: +8
