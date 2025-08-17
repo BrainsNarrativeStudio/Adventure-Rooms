@@ -99,6 +99,7 @@ stats:
 
 traits:
   Role: [explorer, warrior, scholar, mage, rogue]
+  Fraction: [Eastside, Westside, Kingdom]
 
 has:
   hasKey: false
