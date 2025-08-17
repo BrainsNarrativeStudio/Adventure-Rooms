@@ -34,26 +34,26 @@ options:
         key: false
 ---
 
-{{text name}}, you now face your first challenge.
+{{text "name"}}, you now face your first challenge.
 
-{{#if trait "Class" "=" "warrior"}}
+{{#trait "Class" "=" "warrior"}}
 Your warrior's spirit burns bright. You charge forward with courage.
-{{/if}}
+{{/trait}}
 
-{{#if trait "Class" "=" "mage"}}
+{{#trait "Class" "=" "mage"}}
 Your magical knowledge guides you. You cast a protective spell.
-{{/if}}
+{{/trait}}
 
-{{#if trait "Class" "=" "rogue"}}
+{{#trait "Class" "=" "rogue"}}
 Your rogue's instincts serve you well. You move with silent grace.
-{{/if}}
+{{/trait}}
 
-{{#if has.sword}}
+{{#has "sword"}}
 Your sword gleams in the light.
-{{/if}}
+{{/has}}
 
-{{#if has.magic}}
+{{#has "magic"}}
 Magic crackles around you.
-{{/if}}
+{{/has}}
 
 The challenge awaits your response.

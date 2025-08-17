@@ -5,28 +5,28 @@ title: The End
 
 {{text "name"}}, your journey has ended.
 
-{{#if visited "start"}}
+{{#visited "start"}}
 You began at the crossroads of destiny.
-{{/if}}
+{{/visited}}
 
-{{#if visited "middle"}}
+{{#visited "middle"}}
 You faced the challenge with courage.
-{{/if}}
+{{/visited}}
 
-{{#if has.key}}
+{{#has "key"}}
 You found the key to success.
-{{/if}}
+{{/has}}
 
-{{#if trait "Class" "=" "warrior"}}
+{{#trait "Class" "=" "warrior"}}
 Your warrior's path has made you strong.
-{{/if}}
+{{/has}}
 
-{{#if trait "Class" "=" "mage"}}
+{{#trait "Class" "=" "mage"}}
 Your magical path has made you wise.
-{{/if}}
+{{/trait}}
 
-{{#if trait "Class" "=" "rogue"}}
+{{#trait "Class" "=" "rogue"}}
 Your rogue's path has made you clever.
-{{/if}}
+{{/trait}}
 
 The story is complete.

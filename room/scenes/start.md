@@ -11,7 +11,7 @@ options:
       has:
         sword: true
       text:
-        characterName: "Warrior"
+        name: "Warrior"
   - text: "Become a mage"
     next: middle
     set:
@@ -21,7 +21,7 @@ options:
       has:
         magic: true
       text:
-        characterName: "Mage"
+        name: "Mage"
   - text: "Become a rogue"
     next: middle
     set:
@@ -29,7 +29,7 @@ options:
         Class:
           rogue: +1
       text:
-        characterName: "Rogue"
+        name: "Rogue"
 ---
 
 Welcome, young adventurer. You stand at a crossroads where three paths await.
