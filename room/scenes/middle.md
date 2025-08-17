@@ -3,14 +3,14 @@ id: middle
 title: The Challenge
 options:
   - text: "Fight bravely"
-    next: end
+    next: complete
     set:
       stats:
         experience: +5
       has:
         key: true
   - text: "Use magic"
-    next: end
+    next: complete
     if: 'has "magic"'
     set:
       stats:
@@ -18,7 +18,7 @@ options:
       has:
         key: true
   - text: "Sneak around"
-    next: end
+    next: complete
     if: 'trait "Class" "=" "rogue"'
     set:
       stats:
@@ -26,7 +26,7 @@ options:
       has:
         key: true
   - text: "Try to negotiate"
-    next: end
+    next: complete
     set:
       stats:
         experience: +3
