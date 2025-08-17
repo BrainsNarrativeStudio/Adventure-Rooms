@@ -34,7 +34,7 @@ options:
         key: false
 ---
 
-{{characterName}}, you now face your first challenge.
+{{text characterName}}, you now face your first challenge.
 
 {{#if trait "Class" "=" "warrior"}}
 Your warrior's spirit burns bright. You charge forward with courage.
