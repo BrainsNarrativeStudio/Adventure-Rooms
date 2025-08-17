@@ -3,7 +3,7 @@ id: end
 title: The End
 ---
 
-{{text name}}, your journey has ended.
+{{text "name"}}, your journey has ended.
 
 {{#if visited "start"}}
 You began at the crossroads of destiny.
