@@ -19,7 +19,7 @@ You found the key to success.
 
 {{#trait "Class" "=" "warrior"}}
 Your warrior's path has made you strong.
-{{/has}}
+{{/trait}}
 
 {{#trait "Class" "=" "mage"}}
 Your magical path has made you wise.
