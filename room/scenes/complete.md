@@ -1,5 +1,5 @@
 ---
-id: end
+id: complete
 title: The End
 ---
 
