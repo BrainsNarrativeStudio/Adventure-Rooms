@@ -34,7 +34,7 @@ options:
         key: false
 ---
 
-{{text "name"}}, you now face your first challenge.
+{{text "name"}}, you now face your first challenge!
 
 {{#trait "Class" "=" "warrior"}}
 Your warrior's spirit burns bright. You charge forward with courage.
