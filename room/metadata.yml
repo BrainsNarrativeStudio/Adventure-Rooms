@@ -17,7 +17,7 @@ stats:
   experience: 0
 
 text:
-  characterName: "Adventurer"
+  name: "Adventurer"
 
 scenes:
   - start.md
