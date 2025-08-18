@@ -32,7 +32,7 @@ options:
         name: "Rogue"
 ---
 
-Welcome, young adventurer. You stand at a crossroads where three paths await.
+Welcome, young adventurer. You stand at a crossroads where three paths await!
 
 Which path calls to you?
 
