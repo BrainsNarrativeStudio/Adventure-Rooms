@@ -1,6 +1,23 @@
-# Cortext Adventure Repository
+# Cortext Story Repository
 
 This repository contains interactive stories for the Cortext app. Stories are loaded remotely at runtime, allowing for easy updates and distribution without modifying the main application.
+
+## 🚀 **Quick Edit Guide (No GitHub Experience Required!)**
+
+**Want to edit a story right now? Here's the easiest way:**
+
+1. **Click the `.` key** while viewing this repository on GitHub (or add `.dev` after `github.com` in the URL)
+2. **You'll open GitHub.dev** - a full editor right in your browser
+3. **Find your story folder** in the left sidebar (e.g., `basic/` or `crossroads/`)
+4. **Click on any file** to edit it (like `metadata.yml` or scenes in the `scenes/` folder)
+5. **Make your changes** - the editor works just like a normal text editor
+6. **Save with Ctrl+S** (or Cmd+S on Mac)
+7. **Commit your changes** by clicking the Source Control icon (looks like a branch) in the left sidebar
+8. **Add a message** like "Updated story dialogue" and click "Commit & Push"
+
+**That's it!** Your changes will be live in the Cortext app within a few minutes.
+
+---
 
 ## 🎯 **Quick Start Guide**
 
@@ -99,7 +116,6 @@ stats:
 
 traits:
   Role: [explorer, warrior, scholar, mage, rogue]
-  Fraction: [Eastside, Westside, Kingdom]
 
 has:
   hasKey: false
@@ -117,6 +133,26 @@ scenes:
   - ending.md
 ```
 
+### 🔑 **Key Insight: Automatic Variable Creation**
+
+**Important**: The system automatically creates and initializes all variables defined in `metadata.yml` when a story starts. You don't need to manually initialize them in scene files unless you want to change the initial values.
+
+**What happens automatically:**
+- **Traits**: Creates individual score variables (e.g., `explorer_score: 0`, `warrior_score: 0`)
+- **Stats**: Creates stat variables initialized to their defined values
+- **Has**: Creates boolean flags initialized to their defined values  
+- **Text**: Creates text variables initialized to their defined values
+
+**Example**: If you define `traits: Role: [explorer, warrior]` in metadata.yml, the system automatically creates:
+- `explorer_score: 0`
+- `warrior_score: 0`
+- And tracks which has the highest score for role determination
+
+**You only need `set` blocks in scenes when:**
+- Changing variable values during gameplay
+- Setting new values based on player choices
+- Modifying initial values from metadata.yml
+
 ## 📝 Creating Scene Files
 
 **Scene files are the building blocks of your story.** Each one represents a scene or moment where the player makes a choice.
@@ -128,14 +164,8 @@ Each scene file (`.md`) should follow this format:
 ---
 id: start
 title: The Beginning
-set:
-  stats:
-    knowledge: "+5"
-    experience: "+2"
-  traits:
-    Role:
-      explorer: "+2"
-      warrior: "+1"
+# Note: You don't need a 'set' block here unless you want to change initial values
+# Variables are automatically created from metadata.yml
 options:
   - text: Go left
     next: choice1
@@ -166,9 +196,22 @@ You find yourself at a crossroads in a mysterious forest. The path splits in two
 
 - **`id`**: A unique name for this scene (like "start", "choice1", "ending")
 - **`title`**: What to call this scene (optional)
-- **`set`**: What happens when the player reaches this scene (stats go up, has changes, etc.)
+- **`set`**: **Optional** - only needed when you want to change variables when the player reaches this scene
 - **`options`**: The choices the player can make
 - **Content**: The story text that describes what's happening
+
+### 🔑 **When Do You Need `set` Blocks?**
+
+**You DON'T need `set` blocks when:**
+- The scene is just displaying content
+- You're not changing any variables
+- Variables are already set from previous choices
+
+**You DO need `set` blocks when:**
+- Changing variable values during gameplay
+- Setting new values based on player choices
+- Modifying initial values from metadata.yml
+- Wanting to change variables when the player reaches a scene (not just when they make choices)
 
 ## 🎮 Game Mechanics
 
