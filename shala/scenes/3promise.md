@@ -1,8 +1,9 @@
 ---
 id: 3promise
 title: Make A Promise
+
 options:
-    text: You Accept
+  - text: You Accept
     next: 4coverup
 
     set:
@@ -29,7 +30,7 @@ options:
             rebels: -1
             authority: +1
 
-    text: You Refuse
+  - text: You Refuse
     next: 4coverup
 
     set:
