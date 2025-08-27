@@ -10,6 +10,7 @@ options:
         stats:
             explore: +1
 
+
     if: 'trait "factions" "=" "rebels"'
     set:
       traits:
@@ -17,13 +18,13 @@ options:
             rebels: +1
             authority: -1
 
-    if: 'trait "factions" "=" "faithfuls"'
+    else if: 'trait "factions" "=" "faithfuls"'
     set:
       traits:
         factions:
             faithfuls: +1
 
-    if: 'trait "factions" "=" "authority"'
+    else if: 'trait "factions" "=" "authority"'
     set:
       traits:
         factions:
@@ -44,13 +45,13 @@ options:
             rebels: -1
             authority: +1
 
-    if: 'trait "factions" "=" "faithfuls"'
+    else if: 'trait "factions" "=" "faithfuls"'
     set:
       traits:
         factions:
             faithfuls: -1
 
-    if: 'trait "factions" "=" "authority"'
+    else if: 'trait "factions" "=" "authority"'
     set:
       traits:
         factions:
