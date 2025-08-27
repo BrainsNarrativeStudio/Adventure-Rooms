@@ -2,34 +2,14 @@
 id: start
 title: Whiteout
 options:
-  - text: "Become a warrior"
-    next: middle
+  - text: "Descend"
+    
     set:
       traits:
-        Class:
-          warrior: +1
-      has:
-        sword: true
-      text:
-        name: "Warrior"
-  - text: "Become a mage"
-    next: middle
-    set:
-      traits:
-        Class:
-          mage: +1
-      has:
-        magic: true
-      text:
-        name: "Mage"
-  - text: "Become a rogue"
-    next: middle
-    set:
-      traits:
-        Class:
-          rogue: +1
-      text:
-        name: "Rogue"
+        faction:
+          Faithfuls: "+1"
+      stats: 
+        explore: "+1"
 ---
 
 Icy Wastes, as far the Eye reaches

@@ -1,4 +1,4 @@
-id: ShaLa
+id: shala
 title: The Sectret of Shangri lalala
 description: First Steps down the Mountain
 author: Cortext Team
@@ -6,7 +6,7 @@ image: https://media.istockphoto.com/id/1278573815/de/foto/songzanlin-tempel-auc
 version: 1.0.0
 
 traits:
-  faction: [Nihilists, Rebels, faithfuls, Authority, Exploiters]
+  faction: [Nihilists, Rebels, Faithfuls, Authority, Exploiters]
 
 has:
   immortality: false
