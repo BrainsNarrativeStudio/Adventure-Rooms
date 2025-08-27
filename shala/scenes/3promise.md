@@ -18,13 +18,13 @@ options:
             rebels: +1
             authority: -1
 
-    else if: 'trait "factions" "=" "faithfuls"'
+    elif: 'trait "factions" "=" "faithfuls"'
     set:
       traits:
         factions:
             faithfuls: +1
 
-    else if: 'trait "factions" "=" "authority"'
+    elif: 'trait "factions" "=" "authority"'
     set:
       traits:
         factions:
@@ -45,13 +45,13 @@ options:
             rebels: -1
             authority: +1
 
-    else if: 'trait "factions" "=" "faithfuls"'
+    elif: 'trait "factions" "=" "faithfuls"'
     set:
       traits:
         factions:
             faithfuls: -1
 
-    else if: 'trait "factions" "=" "authority"'
+    elif: 'trait "factions" "=" "authority"'
     set:
       traits:
         factions:
