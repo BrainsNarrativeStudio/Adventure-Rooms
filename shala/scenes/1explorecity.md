@@ -24,11 +24,11 @@ options:
 
 You are fascinated by this new world you have discovered. You simply MUST find out what the heck is happening here.
 
-{{#stat "explore" "=" "1"}}
+{{#stat "explore" "=" 1}}
 You're so excited to get going.
 {{/stat}}
 
-{{#stat "leave" "=" "1"}}
+{{#stat "leave" "=" 1}}
 You're weary of this place, it all seems to good to be true.
 {{/stat}}
 
