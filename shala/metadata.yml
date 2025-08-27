@@ -6,7 +6,7 @@ image: https://media.istockphoto.com/id/1278573815/de/foto/songzanlin-tempel-auc
 version: 1.0.0
 
 traits:
-  faction: [Nihilists, Rebels, Faithfuls, Authority, Exploiters]
+  faction: [nihilists, rebels, faithfuls, authority, exploiters]
 
 has:
   immortality: false
