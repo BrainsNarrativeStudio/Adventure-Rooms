@@ -1,13 +1,13 @@
 ---
 id: start
-title: The Beginning
+title: The Beginning!
 options:
   - text: "Become a warrior"
     next: middle
     set:
       traits:
         Class:
-          warrior: +1
+          warrior: "+1"
       has:
         sword: true
       text:
@@ -17,7 +17,7 @@ options:
     set:
       traits:
         Class:
-          mage: +1
+          mage: "+1"
       has:
         magic: true
       text:
@@ -27,7 +27,7 @@ options:
     set:
       traits:
         Class:
-          rogue: +1
+          rogue: "+1"
       text:
         name: "Rogue"
 ---
