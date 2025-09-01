@@ -14,6 +14,6 @@ stats:
 text:
   name: Adventurer
 scenes:
-  0: start.md
-  1: middle.md
-  2: complete.md
+- start.md
+- middle.md
+- complete.md
