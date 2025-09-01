@@ -1,0 +1,34 @@
+id: basic
+title: The Pillow Life
+description: Example adventure for testing. Fall into a pillow fort.
+author: Cortext Team
+version: 2.0.0
+traits:
+  Role: [builder, explorer, scholar]
+  Faction: [acceptance, resistance, family, ambition]
+has:
+  pillowLife: false
+  children: false
+  map: false
+stats:
+  experience: 0
+  wisdom: 0
+  love: 0
+text:
+  characterName: Nobody
+scenes:
+  0: start.md
+  1: builder_path.md
+  2: explorer_path.md
+  3: scholar_path.md
+  4: resistance_path.md
+  5: pillow_life.md
+  6: pillow_marriage.md
+  7: career_path.md
+  8: research_path.md
+  9: pillow_children.md
+  10: pillow_aging.md
+  11: pillow_death.md
+  12: awakening.md
+  13: stay_in_pillows.md
+  14: return_to_reality.md
