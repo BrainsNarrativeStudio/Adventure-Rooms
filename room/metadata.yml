@@ -1,9 +1,9 @@
-id: room
-title: The Simple Adventure
-description: A simple story template demonstrating basic helpers
-author: Cortext Team
-image: https://upload.wikimedia.org/wikipedia/commons/2/2d/Bat_page_255.jpg
-version: 1.0.0
+id: "room"
+title: "The Simple Adventure"
+description: "A simple story template demonstrating basic helpers"
+author: "Cortext Team"
+image: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bat_page_255.jpg"
+version: "1.0.0"
 traits:
   Class: [warrior, mage, rogue]
 has:
@@ -13,7 +13,7 @@ has:
 stats:
   experience: 0
 text:
-  name: Adventurer
+  name: "Adventurer"
 scenes:
 - start.md
 - middle.md
