@@ -6,30 +6,28 @@ options:
     next: complete
     set:
       stats:
-        experience: +5
+        experience: "+5"
       has:
         key: true
   - text: "Use magic"
     next: complete
-    if: 'has "magic"'
     set:
       stats:
-        experience: +8
+        experience: "+8"
       has:
         key: true
   - text: "Sneak around"
     next: complete
-    if: 'trait "Class" "=" "rogue"'
     set:
       stats:
-        experience: +10
+        experience: "+10"
       has:
         key: true
   - text: "Try to negotiate"
     next: complete
     set:
       stats:
-        experience: +3
+        experience: "+3"
       has:
         key: false
 ---
