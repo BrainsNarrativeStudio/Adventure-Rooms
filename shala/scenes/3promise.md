@@ -27,7 +27,7 @@ options:
     elif: 'trait "factions" "=" "authority"'
     set:
       traits:
-        factions:
+        faction:
             rebels: -1
             authority: +1
 
@@ -41,20 +41,20 @@ options:
     if: 'trait "factions" "=" "rebels"'
     set:
       traits:
-        factions:
+        faction:
             rebels: -1
             authority: +1
 
     elif: 'trait "factions" "=" "faithfuls"'
     set:
       traits:
-        factions:
+        faction:
             faithfuls: -1
 
     elif: 'trait "factions" "=" "authority"'
     set:
       traits:
-        factions:
+        faction:
             rebels: +1
             authority: -1
 
@@ -73,5 +73,6 @@ A monk takes you aside. They whisper to you: "You finally made it."
 {{#trait "faction" "=" "authority"}}
 After the commotion dies down, one guard turns to you.
 {{/trait}}
+
 
 They seem frazzled and urge you to make them a promise.
