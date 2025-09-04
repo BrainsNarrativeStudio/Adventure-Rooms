@@ -6,7 +6,7 @@ options:
     next: 3promise
     set:
       traits:
-        factions:
+        faction:
             rebels: +1
             nihilists: +1
             exploiters: +1
@@ -14,13 +14,13 @@ options:
     next: 3promise
     set:
       traits:
-        factions:
+        faction:
             faithfuls: +1
   - text: "You report them"
     next: 3promise
     set:
       traits:
-        factions:
+        faction:
             authority: +1
 ---
 
