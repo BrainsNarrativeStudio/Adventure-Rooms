@@ -6,19 +6,19 @@ options:
     next: 2pickpocket
     set:
       traits:
-        factions: 
+        faction: 
             rebels: +1
   - text: "Talk to monks in the temple"
     next: 2pickpocket
     set:
       traits:
-        factions: 
+        faction: 
             faithfuls: +1
   - text: "Talk to the guards in the armory"
     next: 2pickpocket
     set:
       traits:
-        factions: 
+        faction: 
             authority: +1
 ---
 
