@@ -1,28 +1,22 @@
-id: shala
-title: The Sectret of Shangri lalala
-description: First Steps down the Mountain
-author: Cortext Team
-image: https://media.istockphoto.com/id/1278573815/de/foto/songzanlin-tempel-auch-bekannt-als-ganden-yunnan.jpg?s=2048x2048&w=is&k=20&c=6dlCdO-DOw6xGxeOTtFXMYZdlNnjpWAF3NFUBWAvmJU=
-version: 1.0.0
-start_scene: start.md
-
+id: "shala"
+title: "The Sectret of Shangri lalala"
+description: "First Steps down the Mountain"
+author: "Cortext Team"
+image: "https://media.istockphoto.com/id/1278573815/de/foto/songzanlin-tempel-auch-bekannt-als-ganden-yunnan.jpg?s=2048x2048&w=is&k=20&c=6dlCdO-DOw6xGxeOTtFXMYZdlNnjpWAF3NFUBWAvmJU="
+version: "1.0.0"
 traits:
   faction: [nihilists, rebels, faithfuls, authority, exploiters]
-
 has:
   immortality: false
-
 stats:
   explore: 0
   leave: 0
-
 text:
   name: "Adventurer"
-
-scenes: 
+scenes:
 - start.md
 - 1explorecity.md
 - 2pickpocket.md
 - 3promise.md
 - 4coverup.md
-
+- new-scene.md
