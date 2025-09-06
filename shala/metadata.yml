@@ -4,6 +4,7 @@ description: First Steps down the Mountain
 author: Cortext Team
 image: https://media.istockphoto.com/id/1278573815/de/foto/songzanlin-tempel-auch-bekannt-als-ganden-yunnan.jpg?s=2048x2048&w=is&k=20&c=6dlCdO-DOw6xGxeOTtFXMYZdlNnjpWAF3NFUBWAvmJU=
 version: 1.0.0
+start_scene: start.md
 
 traits:
   faction: [nihilists, rebels, faithfuls, authority, exploiters]
@@ -17,10 +18,3 @@ stats:
 
 text:
   name: "Adventurer"
-
-scenes: 
-- start.md
-- 1explorecity.md
-- 2pickpocket.md
-- 3promise.md
-- 4coverup.md
