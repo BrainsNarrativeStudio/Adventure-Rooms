@@ -4,6 +4,7 @@ description: "A simple story template demonstrating basic helpers"
 author: "Cortext Team"
 image: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bat_page_255.jpg"
 version: "1.0.0"
+start: start.md
 traits:
   Class: [warrior, mage, rogue]
 has:
@@ -14,7 +15,3 @@ stats:
   experience: 0
 text:
   name: "Adventurer"
-scenes:
-- start.md
-- middle.md
-- complete.md
