@@ -1,7 +1,7 @@
 id: "room"
 title: "The Simple Adventure"
 description: "A simple story template demonstrating basic helpers"
-author: "Cortext Team"
+author: "Marc"
 image: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Bat_page_255.jpg"
 version: "1.0.0"
 traits:
