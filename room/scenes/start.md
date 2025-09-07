@@ -36,4 +36,4 @@ Welcome, young adventurer. You stand at a crossroads where three paths await!
 
 Which path calls to you?
 
-Choose your destiny.
+Choose your destiny. Go on. 
