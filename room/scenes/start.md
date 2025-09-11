@@ -1,6 +1,7 @@
 ---
 id: start
-title: The Beginning
+title: The Beginning!
+set:
 options:
   - text: "Become a warrior"
     next: middle
@@ -36,4 +37,4 @@ Welcome, young adventurer. You stand at a crossroads where three paths await!
 
 Which path calls to you?
 
-Choose your destiny. Go on. 
+Choose your destiny. Go on.
