@@ -1,6 +1,6 @@
 ---
 id: start
-title: The Beginning2
+title: The Beginning
 set:
 options:
   - text: "Become a warrior"
