@@ -1,6 +1,7 @@
 ---
 id: middle
-title: The Challenge
+title: The Challenge2
+set:
 options:
   - text: "Fight bravely"
     next: complete
