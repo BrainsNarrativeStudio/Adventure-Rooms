@@ -16,4 +16,5 @@ has:
   key: false
 text:
   name: Adventurer
+start_scene: start.md
 ---
