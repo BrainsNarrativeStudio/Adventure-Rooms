@@ -1,14 +1,15 @@
 ---
 id: start
 title: Whiteout!
+set:
 options:
   - text: "Share the food"
-    next: 1explorecity
+    next: scene_1758315383728
     set:
       stats:
         explore: "+1"
   - text: "Refuse the food"
-    next: 1explorecity
+    next: scene_1758315383728
     set:
       stats:
         leave: "+1"
