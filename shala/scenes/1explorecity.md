@@ -1,25 +1,26 @@
 ---
 id: 1explorecity
 title: Explore The City
+set:
 options:
   - text: "Talk to common folks at the market"
-    next: 2pickpocket
+    next: scene_1758314839014
     set:
       traits:
-        faction: 
-            rebels: +1
+        faction:
+          rebels: "+1"
   - text: "Talk to monks in the temple"
-    next: 2pickpocket
+    next: scene_1758314899776
     set:
       traits:
-        faction: 
-            faithfuls: +1
+        faction:
+          faithfuls: "+1"
   - text: "Talk to the guards in the armory"
-    next: 2pickpocket
+    next: scene_1758314876554
     set:
       traits:
-        faction: 
-            authority: +1
+        faction:
+          authority: "+1"
 ---
 
 You are fascinated by this new world you have discovered. You simply MUST find out what the heck is happening here.
