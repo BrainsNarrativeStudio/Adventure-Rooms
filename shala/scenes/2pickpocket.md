@@ -1,27 +1,28 @@
 ---
 id: 2pickpocket
 title: You feel something move in your right coat pocket
+set:
 options:
   - text: "You make light of it"
     next: 3promise
     set:
       traits:
         faction:
-            rebels: +1
-            nihilists: +1
-            exploiters: +1
+          rebels: "+1"
+          nihilists: "+1"
+          exploiters: "+1"
   - text: "You sermon them"
     next: 3promise
     set:
       traits:
         faction:
-            faithfuls: +1
+          faithfuls: "+1"
   - text: "You report them"
     next: 3promise
     set:
       traits:
         faction:
-            authority: +1
+          authority: "+1"
 ---
 
 {{#trait "faction" "=" "rebels"}}
@@ -37,3 +38,6 @@ The armory is located close to the Palace's main entrance. You see fully armed g
 {{/trait}}
 
 What do you do?
+{{#visited "scene_1758314876554"}}
+  Under the watchful gaze of the guards you see a child running into the crowd with your gold pocket watch!
+{{/visited}}
