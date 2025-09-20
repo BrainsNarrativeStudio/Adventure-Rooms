@@ -7,9 +7,12 @@ version: "1.0.0"
 traits:
   Faction: [rebels, faithfuls, authority]
 stats:
-  experience: 0
+  explore: 0
+  leave: 0
+experience: 0
 has:
-  
+  wounds: 0
+  immortality: 0
 text:
   name: "Player"
 start_scene: start.md
