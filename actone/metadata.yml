@@ -9,6 +9,7 @@ traits:
 stats:
   explore: 0
   leave: 0
+  explore_vs_leave: 0
 experience: 0
 has:
   wounds: 0
