@@ -10,7 +10,7 @@ traits:
 stats:
 experience: 0
 has:
-  wounds: "false"
+  wounds: 0
   immortality: "false"
   met the General: "false"
 text:
