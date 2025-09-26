@@ -16,5 +16,5 @@ has:
   immortality: 0
   met the General: 0
 text:
-
+ name: "Player"
 start_scene: start.md
