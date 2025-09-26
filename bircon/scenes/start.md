@@ -1,29 +1,13 @@
 ---
 id: start
-title: Welcome Onboard
+title: Help the Narrators
 set:
 options:
-  - text: "Continue"
+  - text: "Yes, they want to help and live this story"
     next: scene_1758360668600
+  - text: "No, they don't want to help"
+    next: 
     set:
 ---
 
-Berlin Tempelhof, 1933. 
-
-Flight attendant: "Welcome onboard! Please pay attention to the safety instruction you can find in the enveloppe you received. Please open your envelope. Do not show it to other passengers".
-
---> Explaination of the concept of the game, you're characters, you will have to take decisions and decide how the story goes'
-
-LATER: "Something seems wrong. We should have landed long ago. Where is the pilot taking us?" The attendant bangs on the door of the cockpit. No answer. "It's not our pilot! I don't know what's going on, but it's safe to assume we're being hijacked".
-
-Look at the bottom of your sheet, you see secret goals you should try to achieve to get bonuses and have the most awards at the end of the story. Maybe there is something there about being kidnapped? Grab your pencil!
-
---> Video Explaination of the character sheet and bingo
-
-LATER: projection of mouttain peaks outside. Sounds of wind. Everything shakes. "Oh no, he's crazy! The pilot seems to want to land on this mountain!! BRACE!!'" 
-
-The plane crashes... Black.
-
-(idea for later: some would be wounded by a random or voluntary system - and we could track wounds??)
-
-
+**The Narrators: Welcome. Thanks for joining us. We are part of a secret guild of storytellers, The Narrators, and we live to discover and tell again the best stories in the universe... We need these stories to be experienced again and again, kept alive. But some of these stories are elusive, complex. Like this one here. Full of secrets, passion, conflicting morals and visions of the world. We're still not sure how it should end... Who should win? That's why we need your help to figure out the best shape possible for this story. You seem to be a talented group of people, capable of becoming characters inside that story. Do you agree to help us? And fight for the ending you will find the best?**
