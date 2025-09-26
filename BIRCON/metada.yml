@@ -1,0 +1,20 @@
+id: "BIRCON"
+title: "Welcome to Shangri-La - BIRCON edition"
+description: "Narrator's book for BIRCON"
+author: "PP"
+image: "https://cdn.midjourney.com/7b0f4043-6bfa-41bc-9055-1394fa0e40bd/0_0.png"
+version: "1.0.0"
+traits:
+  Faction: [rebels, faithfuls, authority]
+stats:
+  explore: 0
+  leave: 0
+  explore_vs_leave: 0
+experience: 0
+has:
+  wounds: 0
+  immortality: 0
+  met the General: 0
+text:
+
+start_scene: start.md
