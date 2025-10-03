@@ -1,7 +1,13 @@
 {
   "stories": [
+<<<<<<< HEAD
+    "bircon",
+    "shala",
+    "actone"
+=======
    "bircon",
    "actone",
     "shala"
+>>>>>>> 0dfaf159949ebaa3032b1b4e738ef91c964da222
   ]
 } 
