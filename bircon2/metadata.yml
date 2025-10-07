@@ -12,7 +12,8 @@ has:
   immortality: false
   met the Administrator: false
   denounced the Rebel: false
-  grabbed the platter: false
-  tricked Wilfried: false
-  locked the Administrator: false
+  cheese: false
+  Rebel path: false
+  Authority path: false
+  Faithful path: false
 start_scene: start.md
