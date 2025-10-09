@@ -18,16 +18,15 @@ Full of secrets, passion, conflicting morals, and visions of the world.
 Like this one.
 We are still not sure how it should end, or who should win.
 
-That is why we need your help.
-Today, you are passing your Apprentice Appraisal, the test that will decide if you are fit to join our ranks, and maybe one day become a Narrator yourself.
+Today, you are undergoing your Guild's Appraisal, the test that will decide if you are fit to join our ranks, and maybe one day become a Narrator yourself.
 
 This will be graded.
 Your goal is to earn as many Story Points as possible.
-At the end, only one apprentice here will stand out as the most promising storyteller of this session.
+At the end, only one candidate here will stand out as the most promising storyteller of this session and become an Apprentice.
 But every score will be added to the Guild's records, alongside all those who came before.
 
 You can earn Story Points by filling your Appraisal Sheet.
-Each of you has received a different sheet, asking you to push the story and its characters in a specific direction, sometimes clashing with the goals of the other apprentices.
+Each of you has received a different sheet, asking you to push the story and its characters in a specific direction, sometimes clashing with the goals of the other candidates.
 Show us how much you can influence the story to fit your assignment.
 
 Because a true Narrator does more than watch.
