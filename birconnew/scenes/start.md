@@ -7,9 +7,12 @@ options:
     next: scene_1759491228140
 ---
 
-Welcome. Thanks for joining us.
+Welcome. Thanks for joining us. Sit, please.
+Grab one of these sheets, any that speaks to you. 
+Set?
 
-We are part of a secret guild of storytellers, the Narrators.
+We know you are curious about our secret guild of storytellers. 
+We are the Narrators.
 We live to discover and tell again the best stories in the universe.
 Stories that must be experienced again and again, kept alive.
 
@@ -20,7 +23,7 @@ We are still not sure how it should end, or who should win.
 
 Today, you are undergoing your Guild's Appraisal, the test that will decide if you are fit to join our ranks, and maybe one day become a Narrator yourself.
 
-This will be graded.
+This will be scored.
 Your goal is to earn as many Story Points as possible.
 At the end, only one candidate here will stand out as the most promising storyteller of this session and become an Apprentice.
 But every score will be added to the Guild's records, alongside all those who came before.
@@ -30,8 +33,8 @@ Each of you has received a different sheet, asking you to push the story and its
 Show us how much you can influence the story to fit your assignment.
 
 Because a true Narrator does more than watch.
-When the story blurs, when every path is still possible, we must push the narration in the best direction.
-When a character faces a difficult choice, we must sometimes step in, speak in their place, solve their riddle, or find the right action to move the story forward.
+When the story blurs, when every path is still possible, we must push the elements in the best direction.
+When a character faces a difficult choice, we must sometimes step in, speak in their place, solve a riddle, or execute the right action to move the story forward.
 
 Do it well, and you will earn extra Story Points for your active participation, offering your imagination and courage.
 
